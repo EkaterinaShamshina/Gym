@@ -271,7 +271,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0px 32px;
+    padding: 0px 30px;
     margin: 0;
     position: relative;
     cursor: pointer;
@@ -777,6 +777,52 @@ hr {
     h2 {
         font-size: 26px;
     }
+    .events-type {
+        padding: 7px 17px;
+    }
+    .events-name {
+        max-width: 135px;
+        font-size: 16px;
+    }
+    .events-information {
+        padding-top: 19px;
+    }
+    .events-grid-date {
+        padding-bottom: 0px;
+        font-size: 12px;
+    }
+    .grid-box-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 330px 224px 224px;
+    }
+    .grid-box:nth-child(1) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .grid-box:nth-child(2) {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .grid-box:nth-child(3) {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .grid-box:nth-child(4) {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .grid-box:nth-child(5) {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .grid-box:nth-child(6) {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    .box-description p {
+        margin: 0;
+        font-size: 12px;
+    }
 }
 @media (max-width:768px) {
     .header-logo img {
@@ -860,52 +906,6 @@ hr {
     position: absolute;
     bottom: 0;
     right: 0;
-}
-.events-type {
-    padding: 7px 17px;
-}
-.events-name {
-    max-width: 135px;
-    font-size: 16px;
-}
-.events-information {
-    padding-top: 19px;
-}
-.events-grid-date {
-    padding-bottom: 0px;
-    font-size: 12px;
-}
-.grid-box-container {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 330px 224px 224px;
-}
-.grid-box:nth-child(1) {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-.grid-box:nth-child(2) {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-.grid-box:nth-child(3) {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-}
-.grid-box:nth-child(4) {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-.grid-box:nth-child(5) {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-}
-.grid-box:nth-child(6) {
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-}
-.box-description p {
-    margin: 0;
-    font-size: 12px;
 }
 .distribution {
     margin-top: 90px;
