@@ -995,11 +995,12 @@ input {
 }
 .banner {
     position: static;
-    margin-bottom: 185px;
+    margin-bottom: 0px;
 }
 .banner-box {
     padding-top: 4vw;
     padding-bottom: 52vw;
+    position: relative;
 }
 .bg {
     width: 63%;
@@ -1010,6 +1011,7 @@ input {
 }
 .banner-description {
     max-width: 100%;
+    padding-bottom: 100px;
 }
 .banner-button {
     display: flex;
