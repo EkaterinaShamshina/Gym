@@ -155,7 +155,7 @@ h2 {
 }
 .girl {
     display: flex;
-    width: 63vw;
+    max-width: 990px;
     height: 100%;
     position: absolute;
     right: 26px;
@@ -784,6 +784,7 @@ hr {
     }
     .girl {
         right: 0;
+        max-width: 525px;
     }
     h1 {
         font-size: 30px;
@@ -873,7 +874,7 @@ hr {
     }
     .girl {
     height: 75%;
-    width: 75%;
+    max-width: 751px;
     }
     .header {
     margin-bottom: 28px;
@@ -1029,7 +1030,7 @@ input {
 }
 .girl {
     height: 40%;
-    width: auto;
+    max-width: 512px;
 }
 .banner-description {
     max-width: 100%;
@@ -1155,7 +1156,6 @@ input {
     }
     .girl {
         height: 38%;
-        width: auto;
     }
     .modal .header-nav {
         gap: 10px;
@@ -1163,5 +1163,4 @@ input {
     .modal .social {
         padding-top: 21px;
     }
-    
 }
