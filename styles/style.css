@@ -873,6 +873,7 @@ hr {
     }
     .girl {
     height: 75%;
+    width: 75%;
     }
     .header {
     margin-bottom: 28px;
@@ -1028,6 +1029,7 @@ input {
 }
 .girl {
     height: 40%;
+    width: auto;
 }
 .banner-description {
     max-width: 100%;
@@ -1153,6 +1155,7 @@ input {
     }
     .girl {
         height: 38%;
+        width: auto;
     }
     .modal .header-nav {
         gap: 10px;
