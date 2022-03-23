@@ -155,14 +155,17 @@ h2 {
 }
 .girl {
     display: flex;
+    width: auto;
     height: 100%;
-    max-height: calc(310px + (808-310) * ((100vw - 340px) / (1920-340)));
     position: absolute;
     right: 26px;
     bottom: 0px;
     -o-object-fit: contain;
        object-fit: contain;
     z-index: -1;
+}
+.girl img {
+    max-width: 100%;
 }
 .events-header {
     margin-top: 165px;
