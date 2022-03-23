@@ -155,8 +155,8 @@ h2 {
 }
 .girl {
     display: flex;
-    width: 987px;
-    height: auto;
+    width: 63vw;
+    height: 100%;
     position: absolute;
     right: 26px;
     bottom: 0px;
