@@ -13,7 +13,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .header-item {
     display: flex;
@@ -55,7 +56,7 @@ body {
 }
 .social {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     gap: 1.5vw;
 }
 .social button {
@@ -238,7 +239,7 @@ h2 {
     padding: 10px 20px;
     margin: 0;
     font-weight: 400;
-    font-size: 18px);
+    font-size: 18px;
 }
 .events-grid {
     display: grid;
@@ -616,8 +617,8 @@ input:invalid {
 .IG {
     background-image: url(../images/IN.svg);
     background-color: transparent;
-    width: 27px;
-    height: 27px;
+    width: 30px;
+    height: 30px;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
@@ -627,8 +628,8 @@ input:invalid {
 .FB {
     background-image: url(../images/FB.svg);
     background-color: transparent;
-    width: 27px;
-    height: 27px;
+    width: 30px;
+    height: 30px;
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
@@ -814,7 +815,7 @@ hr {
         font-size: 12px;
     }
     .grid-box h4 {
-        margin-top: 25px;
+        margin-top: 0px;
     }
     .grid-box-container {
         grid-template-columns: repeat(2, 1fr);
@@ -1035,8 +1036,11 @@ input {
     height: 41%;
 }
 .girl {
-    height: 40%;
+    height: 40%; 
     justify-content: center;
+}
+.girl img {
+    width: 72%;
 }
 .banner-description {
     max-width: 100%;
@@ -1078,7 +1082,7 @@ input {
     align-items: center;
 }
 .box-name img {
-    width: 57%;
+    width: auto;
     height: 57%;
 }
 .box-description {
