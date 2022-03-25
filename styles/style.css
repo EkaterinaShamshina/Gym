@@ -1087,15 +1087,35 @@ input {
 .grid-box {
     padding: 0px 20px;
 }
+.grid-box:nth-child(1) img {
+    width: 39px;
+    height: auto;
+}
+.grid-box:nth-child(2) img {
+    width: 34px;
+    height: auto;
+}
+.grid-box:nth-child(3) img {
+    width: 23px;
+    height: auto;
+}
+.grid-box:nth-child(4) img {
+    width: 39px;
+    height: auto;
+}
+.grid-box:nth-child(5) img {
+    width: 46px;
+    height: auto;
+}
+.grid-box:nth-child(6) img {
+    width: 35px;
+    height: auto;
+}
 .box-name{
     padding-top: 42px;
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
     align-items: center;
-}
-.box-name img {
-    width: 57%;
-    height: 57%;
 }
 .box-description {
     display: grid;
