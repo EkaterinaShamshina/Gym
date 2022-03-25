@@ -422,6 +422,18 @@ input:focus {
    outline: none;
    border: 1px solid #FBF138;
 }
+input::-webkit-input-placeholder {
+    color: rgba(43, 53, 65, .3);
+  }
+input::-moz-placeholder {
+    color: rgba(43, 53, 65, .3);
+  }
+input:-ms-input-placeholder {
+    color: rgba(43, 53, 65, .3);
+  }
+input::-ms-input-placeholder {
+    color: rgba(43, 53, 65, .3);
+  }
 input::placeholder {
     color: rgba(43, 53, 65, .3);
   }
@@ -690,7 +702,7 @@ input:invalid {
     font-size: 16px;
 }
 .modal .header-nav a::after {
-    width: 0%;
+    width: 0;
 }
 hr {
     background-color: #2B3541;
@@ -701,7 +713,7 @@ hr {
     margin: 0;
 }
 .modal .social {
-    display:flex;
+    display: flex;
     justify-content: end;
     gap: 20px;
 }
