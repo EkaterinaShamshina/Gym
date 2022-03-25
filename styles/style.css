@@ -1094,6 +1094,7 @@ input {
     align-items: center;
 }
 .box-name img {
+    width: 57%;
     height: 57%;
 }
 .box-description {
