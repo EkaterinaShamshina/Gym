@@ -637,6 +637,7 @@ input:invalid {
     cursor: pointer;
     transform: scale(1);
     opacity: 0.8;
+    padding: 0;
 }
 .FB {
     background-image: url(../images/FB.svg);
@@ -648,6 +649,7 @@ input:invalid {
     cursor: pointer;
     transform: scale(1);
     opacity: 0.8;
+    padding: 0;
 }
 .footer-bottom {
     display: flex;
@@ -1007,7 +1009,6 @@ input {
 .footer-mail-social {
     justify-content: flex-end;
     padding-top: 35px;
-    margin-bottom: 10px;
 }
 .footer-nav a {
     font-size: 12px;
